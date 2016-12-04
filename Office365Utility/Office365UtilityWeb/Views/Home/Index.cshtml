@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="jumbotron">
+    <h1>MLのユーザー一覧取得</h1>
+    <p class="lead">（正確にはMLではなくグループ全て）</p>
+    <p class="lead">取得した結果がテキストボックス内に出るので、Ctrl+Aなどで全選択してコピーして使います。</p>
+    <p><a href="@ViewBag.Url_GetAllGroupsAndUsersList" class="btn btn-primary btn-lg">一覧取得 &raquo;</a></p>
+    <p class="lead">@Html.TextArea("output", (string)ViewBag.GroupAndUsersCSV, new { rows = 5, cols = 800 })</p>
+</div>

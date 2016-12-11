@@ -4,9 +4,9 @@ using System.Linq;
 using System.Web;
 using Newtonsoft.Json;
 
-namespace Office365UtilityWeb.Models
+namespace Office365UtilityLib.MicrosoftGraph
 {
-    public class MicrosotfGraph_GroupsJson
+    public class Groups
     {
 
         public class Value

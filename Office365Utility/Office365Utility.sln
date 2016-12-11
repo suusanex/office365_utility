@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Office365UtilityWeb", "Offi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Office365UtilityWeb.Tests", "Office365UtilityWeb.Tests\Office365UtilityWeb.Tests.csproj", "{0FA88BD0-DA48-495E-9009-993ED10011B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Office365UtilityLib", "Office365UtilityLib\Office365UtilityLib.csproj", "{FC399B75-493B-4622-9CC1-9659A50C8730}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0FA88BD0-DA48-495E-9009-993ED10011B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FA88BD0-DA48-495E-9009-993ED10011B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FA88BD0-DA48-495E-9009-993ED10011B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC399B75-493B-4622-9CC1-9659A50C8730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC399B75-493B-4622-9CC1-9659A50C8730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC399B75-493B-4622-9CC1-9659A50C8730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC399B75-493B-4622-9CC1-9659A50C8730}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

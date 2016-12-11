@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Office365UtilityWeb.Models
+namespace Office365UtilityLib.Office365API
 {
-    public class Office365TokenErrorJson
+    public class TokenError
     {
         public string error { get; set; }
         public string error_description { get; set; }
@@ -16,7 +16,7 @@ namespace Office365UtilityWeb.Models
 
         public override string ToString()
         {
-            return $"{nameof(Office365TokenErrorJson)}:{nameof(error)}={error}, {nameof(error_description)}={error_description}, {nameof(timestamp)}={timestamp}, {nameof(trace_id)}={trace_id}, {nameof(correlation_id)}={correlation_id}, {nameof(error_codes)}={string.Join(",", error_codes)}";
+            return $"{nameof(TokenError)}:{nameof(error)}={error}, {nameof(error_description)}={error_description}, {nameof(timestamp)}={timestamp}, {nameof(trace_id)}={trace_id}, {nameof(correlation_id)}={correlation_id}, {nameof(error_codes)}={string.Join(",", error_codes)}";
         }
     }
 }

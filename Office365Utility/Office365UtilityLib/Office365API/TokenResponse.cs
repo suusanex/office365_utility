@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Office365UtilityWeb.Models
+namespace Office365UtilityLib.Office365API
 {
-    public class Office365TokenResponseJson
+    public class TokenResponse
     {
         public string token_type { get; set; }
         public string scope { get; set; }

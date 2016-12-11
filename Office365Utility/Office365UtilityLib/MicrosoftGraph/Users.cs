@@ -4,9 +4,9 @@ using System.Linq;
 using System.Web;
 using Newtonsoft.Json;
 
-namespace Office365UtilityWeb.Models
+namespace Office365UtilityLib.MicrosoftGraph
 {
-    public class MicrosoftGraph_UsersJson
+    public class Users
     {
         public class Value
         {
